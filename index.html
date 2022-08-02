@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+
+<body class="center">
+    <div class="container">
+
+        <input type="text" placeholder="Enter a city" autofocus="on" id="city-Input" value="">
+        <input type="submit" value="search">
+
+        <h1 id="place"> NewYork</h1>
+        <ul class="type">
+            <li id="day" class="day">someday 00:00</li>
+            <li id="of" class="of"> description of weather</li>
+        </ul>
+        <div class="row">
+            <div class="col-6">
+                <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" id="icon">
+                <span id="temperature">8</span><span></span><span><a href="" id="farenhite"
+                        class="farenhite">°F</a></span><span>|</span><span> <a href="" id="celsius"
+                        class="celsius">°C</a></span>
+
+            </div>
+            <div class="col-6">
+                <ul>
+                    <li> Precipitation: <span>1%</span></li>
+                    <li>Humidity:<span id="humidity">58%</span></li>
+                    <li>Wind:<span id="wind">5 mph</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="forecast" id="forecast">
+        </div>
+    </div>
+
+    </div>
+    <script src="src/app.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+img {
+  width: 40px;
+}
+
+.center {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.day {
+  padding: 0;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.type {
+  margin: 0;
+  padding: 0;
+}
+
+.farenhite {
+  text-decoration: none;
+}
+
+.celsius {
+  text-decoration: none;
+}
